@@ -1,5 +1,4 @@
-hostname = account.wps.cn, ap*.intsig.net, trade-acs.m.taobao.com, api.m.jd.com, pan.baidu.com
-mp.weixin.qq.com, aweme*.snssdk.com, *.googlevideo.com, *.baidu.com, www.zhihu.com
+hostname = account.wps.cn, ap*.intsig.net, trade-acs.m.taobao.com, api.m.jd.com, pan.baidu.com, mp.weixin.qq.com, aweme*.snssdk.com, *.googlevideo.com, *.baidu.com, www.zhihu.com
 
 # unlock
 # Chavy boxjs (多账号Cookie保存切换)
