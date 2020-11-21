@@ -64,4 +64,4 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 ^https:?/\/.*?\.phncdn\.com.*?\/js\/vmobile/atatus.js\?.* url reject
 ^https:?/\/.*?\.phncdn\.com.*?\/js\/vmobile/flipbook.js\?.* url reject
 ^https:?/\/.*?\.phncdn\.com.*?\/js\/.*?\/premium/premium-modals.js\?.* url reject
-^https:?/\/.*?\.phncdn\.com.*?\/js\/.*?\/premium/slider.js\?.* url rejec
+^https:?/\/.*?\.phncdn\.com.*?\/js\/.*?\/premium/slider.js\?.* url reject
