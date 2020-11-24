@@ -1,5 +1,4 @@
 hostname = account.wps.cn, ap*.intsig.net, trade-acs.m.taobao.com, api.m.jd.com, pan.baidu.com, mp.weixin.qq.com, aweme*.snssdk.com, *.googlevideo.com, app.bilibili.com,api.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, sub.store
-simple_cert_hostname=sub.store
 
 # unlock
 # Chavy boxjs (多账号Cookie保存切换)
