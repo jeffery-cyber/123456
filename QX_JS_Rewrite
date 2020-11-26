@@ -1,13 +1,12 @@
 hostname = account.wps.cn, ap*.intsig.net, trade-acs.m.taobao.com, api.m.jd.com, pan.baidu.com, mp.weixin.qq.com, aweme*.snssdk.com, *.googlevideo.com, app.bilibili.com,api.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, sub.store
 
-simple_cert_hostname=sub.store
 
 # unlock
 # Chavy boxjs (多账号Cookie保存切换)
 # 访问:  http://boxjs.net 管理
 ^https?://boxjs.net url script-analyze-echo-response https://gitee.com/chavyleung/scripts/raw/master/box/chavy.boxjs.js
 
-#SubStore
+#SubStore 需在配置最后添加simple_cert_hostname=sub.store
 ^https?:\/\/sub\.store url script-analyze-echo-response https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js
 
 
