@@ -4,7 +4,11 @@ hostname = account.wps.cn, ap*.intsig.net, trade-acs.m.taobao.com, api.m.jd.com,
 # unlock
 # Chavy boxjs (多账号Cookie保存切换)
 # 访问:  http://boxjs.net 管理
-^https?://boxjs.net url script-analyze-echo-response https://gitee.com/chavyleung/scripts/raw/master/box/chavy.boxjs.js
+#^https?://boxjs.net url script-analyze-echo-response https://gitee.com/chavyleung/scripts/raw/master/box/chavy.boxjs.js
+
+#SubStore 需在配置最后添加simple_cert_hostname=sub.store
+#^https?:\/\/sub\.store url script-analyze-echo-response https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js
+
 
 # 国区wps
 ^https://account.wps.cn/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
