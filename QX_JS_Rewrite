@@ -79,5 +79,5 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 ^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation url reject-200
 
 #疯狂的joy
-http-response ^https:\/\/crazy-joy\.jd\.com requires-body=1,script-path=https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/archive/JD/crazyjoy.js
+^https:\/\/crazy-joy\.jd\.com url script-response-body https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/archive/JD/crazyjoy.js
 
