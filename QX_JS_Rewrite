@@ -1,4 +1,4 @@
-hostname = account.wps.cn, ap*.intsig.net, trade-acs.m.taobao.com, api.m.jd.com, pan.baidu.com, mp.weixin.qq.com, aweme*.snssdk.com, *.googlevideo.com, app.bilibili.com,api.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, sub.store, www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com, crazy-joy.jd.com
+hostname = account.wps.cn, ap*.intsig.net, trade-acs.m.taobao.com, api.m.jd.com, pan.baidu.com, mp.weixin.qq.com, aweme*.snssdk.com, *.googlevideo.com, app.bilibili.com,api.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, sub.store, www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com
 
 
 # unlock
@@ -77,7 +77,4 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation url reject-200
 ^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner url reject-200
 ^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation url reject-200
-
-#疯狂的joy
-^https:\/\/crazy-joy\.jd\.com url script-response-body https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/archive/JD/crazyjoy.js
 
