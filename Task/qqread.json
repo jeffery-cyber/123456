@@ -1,13 +1,13 @@
 {
   "id": "ziye.app.sub",
-  "name": "ziye 应用订阅",
+  "name": "123456应用订阅",
   "author": "@ZIYE",
   "icon": "",
   "repo": "https://github.com/ziye12/JavaScript",
   "apps": [{
     "id": "qqread",
     "name": "企鹅读书",
-    "keys": ["qqreadbd", "qqreadtimeurl", "qqreadtimehd", "qqreadbd2", "qqreadtimeurl2", "qqreadtimehd2", "qqreadbd3", "qqreadtimeurl3", "qqreadtimehd3"],
+    "keys": ["qqreadbd1", "qqreadtimeurl1", "qqreadtimehd1", "qqreadbd2", "qqreadtimeurl2", "qqreadtimehd2", "qqreadbd3", "qqreadtimeurl3", "qqreadtimehd3"],
     "author": "@ziye",
     "settings": [{
         "id": "qeSuffix",
