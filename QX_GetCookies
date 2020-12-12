@@ -1,4 +1,4 @@
-hostname = ifac*.iqiyi.com, c.tieba.baidu.com, api.m.jd.com, *.acfun.cn, m.client.10010.com, act.10010.com, wapside.189.cn, music.163.com, *.m.163.com, *.you.163.com, *.rrys2020.com, ios.zmzapi.com, 110.43.90.61, m.client.10010.com, act.10010.com, i.meituan.com, promotion.waimai.meituan.com, h5.ele.me, api.xiaoheihe.cn, *.youth.cn, ios.baertt.com, gameapi.hellobike.com, youhui.95516.com, wapside.189.cn, draw.jdfcloud.com, lkyl.dianpusoft.cn, nebula.kuaishou.com, h5.bianlifeng.com, club.yili.com, v.qq.com, *.video.qq.com, wxavip-up.ezrpro.cn, 110.43.90.61, zt.wps.cn, mqqapi.reader.qq.com, account.huami.com
+hostname = ifac*.iqiyi.com, c.tieba.baidu.com, api.m.jd.com, *.acfun.cn, m.client.10010.com, act.10010.com, wapside.189.cn, music.163.com, *.m.163.com, *.you.163.com, *.rrys2020.com, ios.zmzapi.com, 110.43.90.61, m.client.10010.com, act.10010.com, i.meituan.com, promotion.waimai.meituan.com, h5.ele.me, api.xiaoheihe.cn, *.youth.cn, ios.baertt.com, gameapi.hellobike.com, youhui.95516.com, wapside.189.cn, draw.jdfcloud.com, lkyl.dianpusoft.cn, nebula.kuaishou.com, club.yili.com, v.qq.com, *.video.qq.com, wxavip-up.ezrpro.cn, 110.43.90.61, zt.wps.cn, mqqapi.reader.qq.com, account.huami.com
 
 #爱奇艺
 ^https?:\/\/iface(\d)?\.iqiyi\.com\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
@@ -60,9 +60,6 @@ https://ios.baertt.com/v5/article/complete.json url script-request-body https://
 
 #快手极速版
 https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\? url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
-
-#便利蜂
-^https:\/\/h5\.bianlifeng\.com\/meepo\/taskCenter\/home\/v\d url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js
 
 #京东赚赚
 ^https\:\/\/api\.m\.jd\.com\/client\.action\?functionId\=interactIndex url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.cookie.js
