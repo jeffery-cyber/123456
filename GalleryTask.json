@@ -24,7 +24,6 @@
             "5 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_club_lottery.js, tag=摇京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyjd.png",
             "10 4 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_apple_live.js, tag=苹果抽奖机, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_lotteryMachine.png",
             "1 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_redPacket.js, tag=京东全民开红包, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png",
-            "10 7 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_digital_floor.js, tag=数码加购京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_digital_floor.png",
             "10 1 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_car.js, tag=京东汽车, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_car.png",
             "10 2 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_health.js, tag=健康抽奖机, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_health.png",
             "8 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_kd.js, tag=京东快递签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_kd.png",
