@@ -1,4 +1,4 @@
-hostname = account.wps.cn, ap*.intsig.net, trade-acs.m.taobao.com, api.m.jd.com, pan.baidu.com, mp.weixin.qq.com, aweme*.snssdk.com, *.googlevideo.com, app.bilibili.com,api.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, sub.store, www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com
+hostname = account.wps.cn, ap*.intsig.net, trade-acs.m.taobao.com, api.m.jd.com, pan.baidu.com, mp.weixin.qq.com, *.googlevideo.com, app.bilibili.com,api.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, sub.store, www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com
 
 
 # unlock
@@ -30,10 +30,6 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 # rewrite
 #去微信公众号广告(By Choler)
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
-
-# 抖音去广告去水印 (By Choler)
-#^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js
-#^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js
 
 #Youtube去广告(By DivineEngine)
 (^https?:\/\/[\w-]+\.googlevideo\.com\/.+)(ctier=L)(&.+) url 302 $1$3
