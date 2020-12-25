@@ -1,4 +1,4 @@
-hostname = account.wps.cn, ap*.intsig.net, trade-acs.m.taobao.com, api.m.jd.com, pan.baidu.com, mp.weixin.qq.com, *.googlevideo.com, app.bilibili.com,api.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, sub.store, www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com
+hostname = account.wps.cn, ap*.intsig.net, trade-acs.m.taobao.com, api.m.jd.com, pan.baidu.com, *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com, mp.weixin.qq.com, *.googlevideo.com, app.bilibili.com,api.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, sub.store, www.zhihu.com,api.zhihu.com,zhuanlan.zhihu.com
 
 
 # unlock
@@ -25,6 +25,12 @@ hostname = account.wps.cn, ap*.intsig.net, trade-acs.m.taobao.com, api.m.jd.com,
 
 # 百度云倍速
 https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
+
+#TikTok日本
+(?<=_region=)CN(?=&) JP 307
+(?<=&mcc_mnc=)4 2 307
+^(https?:\/\/dm[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
+(^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
 
 
 # rewrite
